@@ -1,0 +1,145 @@
+nav{
+    width: 100%;
+}
+.row{
+    background-color: #0D92F4;
+    height: 100px;
+}
+button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#one{
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 20px 15px;
+}
+#two{
+    margin-top: 40px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid white;
+    border-radius: 20px 15px;
+    
+}
+.bi-house{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.bi-file-person{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.bi-telephone-fill{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.bi-wrench{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+.bi-question-circle{
+    margin-bottom: 5px; 
+    margin-right: 8px;
+
+}
+h1{
+    text-align: center;
+    background-color: white;
+    
+}
+h2{
+    text-align: center;
+}
+
+#row{
+    height: 400px;
+}
+#image{
+    background-color: rgb(3, 146, 207);
+    color: white;
+}
+@keyframes example {
+    0%   {background-color: #a8c0d0;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+img{
+    height: 200px;
+    width: 400px;
+    animation-name: example;
+    animation-duration: 60s;
+    border-radius: 100px ;
+}
+#from{
+    background-color:lightblue ;
+}
+#table{
+    background-color: rgb(180, 201, 208);
+}
+.pix{
+    border: 5px solid red;
+    border-radius: 50px 25px;
+}
+h1:hover{
+    background-color: red;
+    color: white;
+}
+h2{
+    
+    border: 2px dotted red;
+    border-radius: 50px 25px;
+}
+h2:hover{
+    background-color: red;
+    color: white;
+}
+.pic{
+    height: 50px;
+    width: 50px;
+}
+td:hover{
+    background-color: ;
+}
+img:hover{
+    
+    transform: rotateY(360deg);
+}
+#food{
+    height: 250px;
+}
+a{
+    border: 2px dotted black;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    display: block;
+    width: 100px;
+    text-align: center;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    animation-duration: 3s;
+}
+p:hover{
+    background-color: white;
+    color: rgb(3, 146, 207);
+    display: inline-flex;
+    border: 5px double rgb(3, 146, 207);
+    border-radius: 10px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odd</title>
+    <style>
+        body{
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+      border-radius: 10px;
+    }
+    h1 {
+      color: #333;
+    }
+    div{
+        height: 400px;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 8px;
+        background-color: azure;
+        margin: 2% 40%;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Enter the Number</h1>
+    <input type="number" id="num">
+    <button onclick="odd()">Enter</button>
+    <h2 id="res">result</h2>
+
+    <script>
+        function odd(){
+            const number =parseInt(document.getElementById("num").value);
+            const resultElement = document.getElementById("res")
+        if(isNaN(number)){
+            resultElement.textContent="please enter valid number!";
+            resultElement.style.color="red";
+        }
+        else{
+            if(number%2 ===0){
+                resultElement.textContent=`${number} is even`;
+                resultElement.style.color="green";
+            }
+            else{
+                resultElement.textContent=`${number} is odd`;
+                resultElement.style.color="blue";
+            }
+        }
+    }
+
+    </script>
+    </div>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odd or Even Checker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin: 5px;
+    }
+    h1 {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h2>Check Odd or Even</h2>
+  <input type="number" id="numberInput" placeholder="Enter a number">
+  <button onclick="checkOddEven()">Check</button>
+  <h1 id="result"></h1>
+
+  <script>
+    function checkOddEven() {
+      const number = parseInt(document.getElementById("numberInput").value);
+      const resultElement = document.getElementById("result");
+
+      if (isNaN(number)) {
+        resultElement.textContent = "Please enter a valid number!";
+        resultElement.style.color = "red";
+      } else {
+        if (number % 2 === 0) {
+          resultElement.textContent = `${number} is Even`;
+          resultElement.style.color = "green";
+        } else {
+          resultElement.textContent = `${number} is Odd`;
+          resultElement.style.color = "blue";
+        }
+      }
+    }
+  </script>
+</body>
+</html> -->

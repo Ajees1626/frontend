@@ -1,0 +1,110 @@
+body{
+    margin: 0%;
+}
+.navbar{
+    background-color: #fd6559;
+    color: white;
+    margin: 0%;
+    height: 100px;
+    padding-left: 3%;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.container{
+   padding: 10px;
+}
+.popup-box{
+    height: 300px;
+    width: 330px;
+    padding: 3%;
+    background-color: #f4cccc;
+    color: black;
+    height: 300px;
+    width: 300px;
+    margin: 3%;
+    border-radius: 10px;
+    vertical-align: top;
+    display: inline-block;
+  
+
+}
+.btn{
+    background-color:#fd6559 ;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.btn1{
+    background-color: #fd6559;
+    color: black;
+    border-radius: 100%;
+    border: none;
+    height: 80px;
+    width:80px;
+    font-size: xx-large;
+    position: fixed;
+   bottom: 30px;
+   right: 30px;
+
+}
+.overlay-box{
+     background-color:#f4cccc ;
+     opacity: 0.8;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0%;
+     left: 0%;
+     z-index: 1;
+     display: none;
+     
+}
+.overlay-popup-box{
+    background-color: #fd6559;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+    display: none;
+}
+.overlay-popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: white solid 2px;
+    
+}
+.overlay-popup-box textarea{
+    background: transparent;
+    border: 2px solid white;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+.overlay-popup-box button{
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.overlay-popup-box input::placeholder{
+    color: white;
+}
+.overlay-popup-box textarea::placeholder{
+    color: white;
+}
+.overlay-popup-box input:focus{
+    outline: none;
+}
+.overlay-popup-box textarea:focus{
+    outline: none;
+}

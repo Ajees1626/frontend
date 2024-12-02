@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 50px;
+            width: 50px;
+            text-align: center;
+    
+        }
+    </style>
+</head>
+<body>
+    <h1 id="one" onclick="wow()">click me<img src="thumbs-up.png" > </h1> 
+
+    <script>
+        const role = {
+            name : "abdul ajees",
+            age : 11
+        }
+
+        function wow(){
+            document.getElementById("one").textContent="my name is "+ role.name+", "+"my age is "+role.age
+        }
+           
+        
+
+
+    </script>
+
+
+</body>
+</html>

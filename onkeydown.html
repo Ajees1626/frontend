@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: black;
+            color: white;
+        }
+        div{
+            height: 500px;
+            width: 600px;
+            margin-top: 10%;
+            margin-left: 30%;
+            position: relative;
+            border: black solid 2px;
+        }
+        input{
+            margin-left: 35%;
+            margin-top: 5%;
+        }
+        textarea{
+            border: none;
+            height: 390px;
+            width: 590px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <input id="one" onkeyup="update()"><br> <hr>
+    <textarea id="type"></textarea></textarea>
+    </div>
+
+<script>
+    var text1 =document.getElementById("one")
+    var text2 =document.getElementById("type")
+
+
+function update(){
+   
+    text2.textContent = text1.value
+}
+
+</script>
+    
+</body>
+</html>

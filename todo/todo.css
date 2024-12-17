@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0%;
+    background-color: #10375C;
+    color: #F4F6FF;
+}
+.head{
+    height: 40px;
+    width: 100%;
+    border: 2px solid;
+    text-align: center;
+    padding-top: 20p;
+}
+.headh1:hover{
+    background-color: #F4F6FF;
+    color: #10375C;
+    padding: 3%;
+}
+.main{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 2px solid #F4F6FF;
+    height: 400px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 8%;
+}
+.mylist{
+    text-align: center;
+    margin-top: 20px;
+}
+.mylist:hover{
+    color: #EB8317;
+}
+.input{
+    background-color: #F4F6FF;
+    border-radius: 10px;
+    height: 25px;
+    color: black;
+    font-size: medium;
+    width: 70%;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+}
+.input:focus{
+    outline: none;
+}
+.addbtn{
+    background-color: #F3C623;
+    color: #F4F6FF;
+    border-radius: 5px;
+    height: 30px;
+    width: 15%;
+}
+.addbtn:hover{
+    background-color: #F4F6FF;
+    color: #10375C;
+}
+.indiv{
+    
+    height: 293px;
+    width: 100%;
+    overflow: auto;
+}
+.result{
+    margin-top: 10px;
+}
+
+
+#result-input{
+    width: 75%;
+    height: 35px;
+    background-color: grey;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    overflow: auto;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+#mydelete{
+    width: 15%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    background-color: #EB8317;
+    color: white;
+
+}
+#mydelete:hover{
+    background-color: white;
+    color: black;
+}
+
+.result h3 {
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    width: 80%;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change the image</title>
+    <style>
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            height: 100%;
+            padding: 20px 0;
+            position: relative;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        img{
+            width: 80%;
+            margin-left: 100px;
+            display: inline-block;
+        }
+        .btn11{
+           
+           position: fixed;
+           bottom: 50%;
+           top: 50%;
+           right: 50px;
+           height: 50px;
+           width: 50px;
+
+          
+       }
+       .btn21{
+           
+           position: fixed;
+           bottom: 50%;
+           top: 50%;
+           left: 150px;
+           height: 50px;
+           width: 50px;
+
+          
+       }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Flower images </h1>
+        <p> change images</p>
+        <img src="fl-0.jpg" alt="Flower" id="img">
+        <button class="btn11" id="btn1">></button>
+        <button class="btn21" id="btn2"> < </button>
+    </div>
+    <script>
+        const image = [
+                    "fl-0.jpg",
+                    "fl-1.jpg",
+                    "fl-2.jpg",
+                    "fl-3.jpg",
+                    "fl-4.jpg",
+                    "fl-5.jpg",
+                    "fl-6.jpg",
+                    "fl-7.jpg",
+                    "fl-8.jpg"
+                
+        ]
+
+        let currentindex = 0
+        const btn1 = document.getElementById("btn1")
+        const btn2 = document.getElementById("btn2")
+        const img = document.getElementById("img")
+
+        setTimeout(function(){
+            btn1.addEventListener('click',function(){
+                currentindex = (currentindex + 1) % image.length;
+                img.src = image[currentindex];
+            
+            } )
+        },0);
+
+        setTimeout(function(){
+            
+            btn2.addEventListener('click',function(){
+                currentindex = (currentindex - 1 + image.length) % image.length;
+                img.src = image[currentindex];
+            
+            }
+        )
+        },0);
+    </script>
+</body>
+</html>

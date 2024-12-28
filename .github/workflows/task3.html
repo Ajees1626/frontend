@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            margin-top: 50px;
+            margin-left: 35%;
+            border: 2px solid black;
+        }
+        input{
+            margin-top: 20px;
+            margin-left: 50px;
+
+        }
+        p{
+            margin-left: 40px;
+            text-align: center;
+            font-size: x-large;  
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <input type="number" id="num">
+    <button id="btn"> click</button>
+    <p id="result"></p>
+    </div>
+
+    <script>
+         let numbers = document.getElementById("num")
+         let btn = document.getElementById("btn")
+         let result = document.getElementById("result")
+        
+         btn.addEventListener('click',function(){
+            //  document.getElementById("result").innerHTML=print.textcontect;
+            //  numbers.value = result.value
+             let number = parseInt(numbers.value)
+            function print(number){
+            return new Promise(function(resolve,reject){
+            if (number %2 === 0,number ){
+                resolve("this number in even");
+            }
+            else{
+                reject("this number is odd");
+            }
+        });
+        }
+
+            print(number).then((data) =>{result.textContent=data;})
+              .catch((error) =>{result.textContent=error;})
+        })
+        
+
+         
+
+        // let number = new Promise(function(resolve,reject){
+        //     if (number %= 0){
+        //         resolve("this number in even");
+        //     }
+        //     else{
+        //         reject("this number is odd");
+        //     }
+        // });
+        // number.then(
+        //     function(value) {"code is successful"},
+        //     function(error) {"code is error"}
+        // )
+    </script>
+</body>
+
+</html>

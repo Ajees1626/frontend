@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Navigation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: nne;
+      padding: 10px 20px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #575757;
+    }
+    section {
+      min-height: 100vh;
+      padding: 20px;
+      border-bottom: 1px solid #ddd;
+      scroll-margin-top: 60px; /* Prevent overlap with sticky nav */
+    }
+    #about { background-color: #f4f4f4; }
+    #skills { background-color: #eaeaea; }
+    #projects { background-color: #dcdcdc; }
+    #contact { background-color: #cfcfcf; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>Welcome to the About section! Here you can write about yourself or your mission.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <p>This section highlights your skills and expertise.</p>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <p>Showcase your projects here with brief descriptions or links.</p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Provide your contact information or a form for visitors to reach you.</p>
+</section>
+
+</body>
+</html>

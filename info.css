@@ -1,0 +1,42 @@
+*{
+    background-color: #;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 550px;
+    text-align: center;
+}
+input{
+    display:block;
+    width: 250px;
+    height: 30px;
+    border-color: gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+select{
+    display:block;
+    width: 255px;
+    height: 30px;
+    border-color: gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+textarea{
+    display:block;
+    width: 250px;
+    height: 100px;
+    border-color: gray;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-color: gray;
+    margin-top: 10px;
+}

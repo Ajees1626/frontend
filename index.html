@@ -3,44 +3,180 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NOTES</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="note.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
-        <h1>Notes-Key</h1>
+    <header>
+        <div class="header">
+            <div id="menusection">
+                <a href="#about" style="display: inline-block; padding-left: 50px;">about</a>     
+                <a href="#skillbox1" style="display: inline-block;padding-left: 50px;">skill</a>
+                <a href="#projectbox" style="display: inline-block; padding-left: 50px;">project</a>
+                <a href="#footer" style="display: inline-block; padding-left: 50px;">Contact</a>
+                <button id="menubar1" style="display: inline-block; margin-left: 50px;"  ><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="m249-207-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg>
+                </button>
+            </div>
+            <div class="topdiv">
+                <a href="Mohamed Abdul Ajees resume 1.pdf"download><button id="on-off" ><h1 style="display: inline-block;">Resume</h1><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="#e8eaed"><path d="M480-323.39 314.31-489.08l32.61-32.23 110.39 110V-780h45.38v368.69l110.39-110 32.61 32.23L480-323.39ZM237.69-180q-23.53 0-40.61-17.08T180-237.69V-363h45.39v125.31q0 4.61 3.84 8.46 3.85 3.84 8.46 3.84h484.62q4.61 0 8.46-3.84 3.84-3.85 3.84-8.46V-363H780v125.31q0 23.53-17.08 40.61T722.31-180H237.69Z"/></svg></button></a>
+           <button id="menubar" type="menu"><svg  xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#e8eaed"><path d="M120-240v-66.67h720V-240H120Zm0-206.67v-66.66h720v66.66H120Zm0-206.66V-720h720v66.67H120Z"/></svg></button>
+           
+           <h1 class="name">Hi, I'm Ajees</h1>
+           <h3 class="name1">I am Full Stack </h3><div class="whiteline"></div>
+           </div>
+           
+        </div>
+        
+    </header>
+    <div id="about">
+        <h1 class="about">ABOUT ME</h1>
     </div>
+    <div class="row" id="main" >
+        <section class="flip">
+        <div class="col" id="img1-div">
+            <img src="ajeesimg.jpg" alt="img" class="img1">    
+        </div>
+        </section>
+        <div class="col" id="letter">
+            <section class="hidden">
+            <h1 class="head1">WHO I AM </h1>
+            <p class="con1">Hi, This is S.Mohamed Abdul Ajees, a passionate and dedicated fresher with a B.Sc. in Information Technology (2024). I have recently completed a comprehensive Full Stack Developer course, where I gained hands-on experience in building web applications. My current focus is mastering React.js, which I will complete within a month.
 
-    <div class="container">
-        <div class="popup-box">
-            <h2 id="title">poem</h2><hr>
-            <h5 id="subtitle">authour</h5><hr>
-            <p id="quey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis blanditiis qui modi voluptatum tempore minima nostrum architecto cumque consequuntur!</p>
-            <button class="btn" onclick="deletebook(event)">Delete</button>
+                I enjoy solving complex problems and creating user-friendly solutions that make a real impact. With a strong foundation in web development and programming, I am ready to contribute my skills to innovative projects and collaborative teams. </p>
+            </section>
         </div>
     </div>
-    <div class="overlay-box"></div>
-    <div class="overlay-popup-box">
-        <h2>ADD SOME:</h2>
-        <form >
-            <input type="text" placeholder="enter title " id="title-input">
-            <input type="text" placeholder="enter subtitle" id="subtitle-input">
-            <textarea placeholder="enter query" id="query-input"></textarea>
-            <button id="addbook">ADD</button>
-            <button id="cancel">cancel</button>
-        </form>
-    </div>
-    <button class="btn1" id="addlist">+</button>
-    <script src="note.js"></script>
+    <div class="row" id="main" >
+        
+        <div class="col" id="letter">
+            <section class="hidden1">
+            <h1 class="head1">MY SKILL and EXPERTISE</h1>
+            <p class="con1">* Frontend Development: HTML, CSS, JavaScript, Bootstrap, React.js (in progress).<br>
 
-    <ul>
-        <li><a href="todo.html">this-is-my-todo list</a></li>
-        <li><a href="task2.html"> this is task2</a></li>
-    </ul>
+                * Backend Development: Python (Django, Flask), working with databases like SQL.<br>
+                
+                * Version Control: Proficient in Git and GitHub for collaborative development.<br>
+                
+                * Additional Tools: API integration, debugging, and deployment pipelines. </p>
+            </section>
+        </div>
+        <section class="flip">
+            <div class="col" id="img1-div">
+                <img src="ajees website.jpg" alt="img" class="img1">    
+            </div>
+            </section>
+    </div>
+    <div class="row" id="main" >
+        
+        <section class="flip">
+            <div class="col" id="img1-div">
+                <img src="freepik__retouch__99337.png" alt="img" class="img1">    
+            </div>
+            </section>
+        <div class="col" id="letter">
+            <section class="hidden">
+            <h1 class="head1">MY VISION</h1>
+            <p class="con1">As a fresher, I am excited to embark on a journey where I can contribute to innovative projects while growing as a professional. My vision is to become a skilled Full Stack Developer, solving real-world problems through technology.
+
+                I aim to work with teams that value creativity, collaboration, and continuous learning, helping me grow as a developer while making meaningful contributions. </p>
+            </section>
+        </div>
+    </div>
+
+    <div class="row" id="main">
+        <div class="col" id="skillbox1">
+            <
+             <section id="iconletter">
+                <h2 id="icon"> HTML </h2>
+                <h2 id="icon">CSS</h2>
+                <h2 id="icon">BOOTSTRAP</h2>
+                <h2 id="icon">JAVA SCRIPT</h2>
+                <h2 id="icon">REACT.JS</h2>
+
+             </section>
+        </div>
+        <div class="col" id="skillbox2">
+           <section class="icon-all-box1">
+             <img src= "html (1).png" alt="icon" class="icon">
+             <img src="css-3 (1).png" alt="icon" class="icon">
+            <img src="letter-b.png" alt="icon" class="icon">
+             <img src="js (1).png" alt="icon" class="icon">
+            <img src="3d-illustration-cryptocurrency-symbol-logo.png" alt="icon" class="icon">
+            </section>
+        </div>
+        <div class="col" id="skillbox3">
+           <section class="icon-all-box2">
+                <img src="snakes.png" alt="icon" class="icon">
+                <img src="sql.png" alt="icon" class="icon">
+                <img src="rb_18332.png" alt="icon" class="icon">
+            </section>
+        </div>
+        <div class="col" id="skillbox4">
+            <section id="iconletter1">
+                <h2 id="icon1">PYTHON</h2>
+                <h2 id="icon1">MY SQL</h2>
+                <h2 id="icon1">GIT HUB</h2>
+             </section>
+        </div>
+
+    </div>
+
+    <div class="row" id="main">
+        <div class="row" id="">
+        <div class="col" id="projectbox">
+            <h1 class="projectboxhead">Notes Keys</h1>
+            <h1 class="projectboxhead">Notes Keys</h1>
+            <a href="note.html"><button>View</button></a>
+            <h1 class="projectboxhead">Notes Keys</h1>
+            <h1 class="projectboxhead">Notes Keys</h1>
+        </div>
+        <div class="col" id="projectbox1">
+            <h1 class="projectboxhead1">ToDo List</h1>
+            <h1 class="projectboxhead1">ToDo List</h1>
+            <a href="todo.html"><button>View</button></a> 
+            <h1 class="projectboxhead1">ToDo List</h1>
+            <h1 class="projectboxhead1">ToDo List</h1>
+        </div>
+        <div class="col" id="projectbox2">
+            <h1 class="projectboxhead2">Time setting</h1>
+            <h1 class="projectboxhead2">Time setting</h1>
+            <a href="flower.html"><button>View</button></a> 
+            <h1 class="projectboxhead2">Time setting</h1>
+            <h1 class="projectboxhead2">Time setting</h1>
+        </div>
+        <div class="col" id="footer">
+            <div class="footer1">
+                <span class="footer-1-letter">I Did It</span>
+                <span class="footer-2-letter">Let's Chat</span><div class="whiteline1"></div>
+              </div>
+              <div class="col" id="footerbox">
+                
+                <h1>Social Media</h1>
+                <a href="https://www.instagram.com/zeni_aji/?next=%2F">Instagram</a>
+                <a href="https://www.linkedin.com/in/mohamed-abdul-ajees-081803313/">Linked In</a>
+                <a href="https://wa.me/7397251760">WhatsApp</a>
+                <hr>
+              </div>
+              <div class="col" id="footerbox1">
+                
+                <h1>Contact</h1>
+                <a href="7397251760">Phone</a>
+                <a href="info.html">E-mail</a>
+                <hr>
+              </div>
+        </div>
+    </div>
+    </div>
+
+    
+   
+
+    <script src="portfolio.js">
+         
+    </script>
+    
 </body>
 </html>
-<<<<<<< HEAD
-
-=======
->>>>>>> 0edc20497c6880ab7f791997aa3b32eb65074a8a

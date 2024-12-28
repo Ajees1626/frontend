@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Form</h1>
+        <form   action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="a8a31f48-167e-4671-9d6b-a0c40c18d2cf">
+
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <input type="email" name="Email" placeholder="Email" required>
+        <select name="State Name">
+        <option>Tamil Nadu</option>
+        <option>Kerala</option>
+        <option>Karnataka</option>
+        <option>Andhra Pradesh</option>
+        <option>Gujarat</option>
+        <option>Arunachal Pradesh</option>
+        <option>Assam</option>
+        </select>
+        <textarea name="Message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

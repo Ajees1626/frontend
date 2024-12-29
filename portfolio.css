@@ -391,7 +391,7 @@ section{
     top: 0px;
     height: 100vh;
     width: 207vh;
-    background-color: #E8B86D;
+    background-color: #de271a;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #projectbox2 h1{
@@ -421,7 +421,7 @@ section{
     margin-left: 47%; 
     margin-top: 40px; 
     border-radius: 10px;
-    background-color: #FCDE70;
+    background-color: #f05d5d;
     border: none;
 }
 

@@ -1,14 +1,23 @@
 *{
-    background-color: #;
+    background-color: #FF8225;
 }
 .container{
     width: 400px;
     height: 400px;
     border: 1px solid red;
+    border-radius: 10px;
     display: inline-block;
     margin-top: 100px;
     margin-left: 550px;
     text-align: center;
+    background-color: aliceblue;
+    background: whitesmoke;
+}
+h1{
+    background-color: aliceblue;
+}
+form{
+    background-color: aliceblue;
 }
 input{
     display:block;
@@ -17,6 +26,7 @@ input{
     border-color: gray;
     margin-left: 70px;
     margin-top: 10px;
+    background-color: aliceblue;
 }
 select{
     display:block;
@@ -25,6 +35,7 @@ select{
     border-color: gray;
     margin-left: 70px;
     margin-top: 10px;
+    background-color: aliceblue;
 }
 textarea{
     display:block;
@@ -33,10 +44,15 @@ textarea{
     border-color: gray;
     margin-left: 70px;
     margin-top: 10px;
+    background-color: aliceblue;
 }
 button{
     width: 150px;
     height: 30px;
     border-color: gray;
     margin-top: 10px;
+    background-color: #f09d5e;
+}
+option{
+    color: aliceblue;
 }

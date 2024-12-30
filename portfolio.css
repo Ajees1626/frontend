@@ -236,8 +236,8 @@ section{
 .icon-all-box1{
     opacity: 0;
     filter: blur(5px);
-    transform: skew(400deg);
-    transition: all 5s;
+    transform: scaleX(400deg);
+    transition: all 3s;
     padding-left: 20%;
     padding-top: 0%;
     
@@ -250,8 +250,8 @@ section{
 .icon-all-box2{
     opacity: 0;
     filter: blur(5px);
-    transform: skew(400deg);
-    transition: all 5s;
+    transform: scaleX(400deg);
+    transition: all 3s;
 }
 .show1{
     opacity: 1;
@@ -468,7 +468,8 @@ section{
     background: #FF8225;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 300px;
+    font-size: 150px;
+    height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
